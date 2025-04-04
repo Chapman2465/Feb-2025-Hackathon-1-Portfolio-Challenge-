@@ -200,18 +200,18 @@
                         <a href="https://github.com/Chapman2465"><i class="fab fa-github"></i></a>
                     </div>
                 </div>
-                <form class="contact-form">
+                <form action="https://formspree.io/f/mkgjqpez" method="POST">
                     <div class="form-group">
-                        <input type="text" placeholder="Your Name" required>
+                      <input type="text" name="name" placeholder="Your Name" required>
                     </div>
                     <div class="form-group">
-                        <input type="email" placeholder="Your Email" required>
+                      <input type="email" name="_replyto" placeholder="Your Email" required>
                     </div>
                     <div class="form-group">
-                        <textarea placeholder="Your Message" required></textarea>
+                      <textarea name="message" placeholder="Your Message" required></textarea>
                     </div>
                     <button type="submit" class="btn primary">Send Message <i class="fas fa-paper-plane"></i></button>
-                </form>
+                  </form>
             </div>
         </div>
     </section>
@@ -236,30 +236,30 @@
                         <p><i class="fas fa-clock"></i> Mon-Sat: 10AM - 6PM</p>
                     </div>
                 </div>
-                <form class="contact-form">
+                <form action="https://formspree.io/f/mrbpyodo" method="POST">
                     <h3>Quick Repair Inquiry</h3>
                     <div class="form-group">
-                        <input type="text" placeholder="Your Name" required>
+                      <input type="text" name="name" placeholder="Your Name" required>
                     </div>
                     <div class="form-group">
-                        <input type="email" placeholder="Your Email" required>
+                      <input type="email" name="_replyto" placeholder="Your Email" required>
                     </div>
                     <div class="form-group">
-                        <select required>
-                            <option value="">Select Service Needed</option>
-                            <option>Phone Screen Replacement</option>
-                            <option>Battery Replacement</option>
-                            <option>Water Damage Repair</option>
-                            <option>Other Issue</option>
-                        </select>
+                      <select name="service" required>
+                        <option value="">Select Service Needed</option>
+                        <option>Phone Screen Replacement</option>
+                        <option>Battery Replacement</option>
+                        <option>Water Damage Repair</option>
+                        <option>Other Issue</option>
+                      </select>
                     </div>
                     <div class="form-group">
-                        <textarea placeholder="Describe your device issue"></textarea>
+                      <textarea name="issue" placeholder="Describe your device issue"></textarea>
                     </div>
                     <button type="submit" class="btn btn-primary">
-                        <i class="fas fa-paper-plane"></i> Send Repair Request
+                      <i class="fas fa-paper-plane"></i> Send Repair Request
                     </button>
-                </form>
+                  </form>
             </div>
         </div>
     </section>
